@@ -8,8 +8,8 @@ export default function PlayerLayout({ children }) {
   return (
     <SidebarProvider>
       <AppSidebar />
-      <SidebarTrigger />
-      <main>{children}</main>
+      <SidebarTrigger className="p-8" />
+      <main className=" mx-auto container">{children}</main>
     </SidebarProvider>
   );
 }
