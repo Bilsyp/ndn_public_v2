@@ -44,6 +44,7 @@ const VideoConfiguration = () => {
       <motion.div variants={itemVariants}>
         <AbrState />
       </motion.div>
+
       <motion.div variants={itemVariants}>
         <ResolutionState />
       </motion.div>
